@@ -214,7 +214,27 @@
     .group:last-child {
       margin-bottom: 0px;
     }
+  }
 
+  @media screen and (max-width: 388px) {
+    .content {
+      width: 320px;
+      height: 600px;
+      padding: 30px 60px;
+    }
+
+    .imagem {
+      width: 320px;
+      height: 270px;
+    }
+
+    .num {
+      font-size: 1.3rem;
+    }
+
+    .stat {
+      font-size: .7rem;
+    }
   }
 
 
