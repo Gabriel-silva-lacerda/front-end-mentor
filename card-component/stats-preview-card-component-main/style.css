@@ -34,6 +34,7 @@
   .imagem {
     width: 520px;
     height: 420px;
+    display: flex;
     position: relative;
   }
 
@@ -237,5 +238,29 @@
     }
   }
 
+  @media screen and (max-width: 388px) {
+    body {
+      margin: 90px 0px;
+    }
+
+    .content {
+      width: 320px;
+      height: 600px;
+      padding: 35px 60px;
+    }
+
+    .imagem {
+      width: 320px;
+      height: 270px;
+    }
+
+    .num {
+      font-size: 1.3rem;
+    }
+
+    .stat {
+      font-size: .7rem;
+    }
+  }
 
   
