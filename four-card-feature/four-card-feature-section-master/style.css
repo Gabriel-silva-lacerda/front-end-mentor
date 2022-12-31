@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: hsl(0, 0%, 98%);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tittles {
+    text-align: center;
+    max-width: 500px;
+    margin-bottom: 100px;
+}
+
+.tittle {
+    font-weight: normal;
+    color: rgba(109, 107, 107, 0.712);
+}
+
+.sub-tittle {
+    font-size: 1.9rem;
+    color: rgba(0, 0, 0, 0.842);
+}
+
+.firts-text {
+    font-size: 0.9rem;
+    color: rgba(109, 107, 107, 0.712);
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.supervisor, .team-builder, .calculator, .karma {
+    width: 300px;
+    height: 220px;
+    padding: 20px;
+    background-color: #ffffff;
+    position: relative;
+    box-shadow: 0px 1px 5px 2px #00000029;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.supervisor {
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.team-builder {
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.calculator {
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.karma {
+    margin-top: 30px; 
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.group {
+    margin: 0px 30px;
+}
+
+
+.box-tittle {
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.842);
+}
+
+.explanatory-text {
+    font-size: 0.8rem;
+    color: rgba(109, 107, 107, 0.712);
+    padding-top: 15px;
+}
+
+.img {
+    position: absolute;
+    right: 25px;
+    bottom: 20px;
+}
+
+@media screen and (max-width: 997px) {
+    .supervisor, .team-builder, .calculator, .karma {
+        width: 270px;
+        height: 210px;
+    }
+}
+
+@media screen and (max-width: 917px) {
+    .supervisor, .team-builder, .calculator, .karma {
+        width: 250px;
+        height: 210px;
+    }
+}
+
+@media screen and (max-width: 847px) {
+    .supervisor, .team-builder, .calculator, .karma {
+        width: 230px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .supervisor, .team-builder, .calculator, .karma {
+        width: 300px;
+        height: 220px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .team-builder {
+        margin: 20px 0px;
+    }
+
+    .karma {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .group {
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    main {
+        height: 100%;
+    }
+
+    .container {
+        margin-bottom: 30px;
+    }
+
+    .tittles {
+        margin: 20px 20px;
+        
+    }
+    .tittle {
+        font-size: min(1.9rem, 7vw);
+    }
+    
+    .sub-tittle {
+        font-size: 1.7rem;
+        font-size: min(1.9rem, 7vw);
+    }
+    
+    .firts-text {
+        font-size: 0.9rem;
+        margin: 20px 0px;
+    }
+}
